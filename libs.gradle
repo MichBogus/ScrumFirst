@@ -32,6 +32,7 @@ ext {
             supportCore                 : "com.android.support:support-core-utils:$support_library_version",
             supportAppCompat            : "com.android.support:appcompat-v7:$support_library_version",
             supportDesign               : "com.android.support:design:$support_library_version",
+            recyclerView                : "com.android.support:recyclerview-v7:$support_library_version",
             constraintLayout            : "com.android.support.constraint:constraint-layout:$constraint_version",
             glide                       : "com.github.bumptech.glide:glide:$glide_version",
             glideTransformation         : "jp.wasabeef:glide-transformations:$glide_transformations_version"

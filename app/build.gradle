@@ -31,6 +31,7 @@ dependencies {
     implementation viewDependencies.supportAppCompat
     implementation viewDependencies.supportDesign
     implementation viewDependencies.constraintLayout
+    implementation viewDependencies.recyclerView
     implementation viewDependencies.glide
     implementation viewDependencies.glideTransformation
 
