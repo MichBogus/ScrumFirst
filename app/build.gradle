@@ -1,4 +1,5 @@
 apply plugin: 'com.android.application'
+apply plugin: 'kotlin-kapt'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 
@@ -43,7 +44,7 @@ dependencies {
     implementation appDependencies.joda
 
     implementation diDependencies.dagger
-    annotationProcessor diDependencies.daggerCompiler
+    kapt diDependencies.daggerCompiler
 
     testImplementation testDependencies.junit
     testImplementation testDependencies.mockito
